@@ -74,17 +74,24 @@
 .section__image--float--left {
     float: left;
     margin-right: 30px;
+    margin-bottom: 0;
 }
 
 .section__image--float--right {
     float: right;
     margin-left: 30px;
+    margin-bottom: 0;
 }
 
-.section:after {
+.clearfix {
     content: "";
     display: block;
     clear: both;
+    overflow: hidden;
+}
+
+.clearfix:not(:last-child) {
+    margin-bottom: 30px;
 }
 
 .figure {
