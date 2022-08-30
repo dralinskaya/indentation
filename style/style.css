@@ -96,11 +96,10 @@
 
 .figure {
     margin-bottom: 30px;
+    border: 1px black solid;
 }
 
 .figcaption {
-    border: 1px black solid;
-    border-top: none;
     color: #5E5E5E;
     padding: 15px 30px;
 }
